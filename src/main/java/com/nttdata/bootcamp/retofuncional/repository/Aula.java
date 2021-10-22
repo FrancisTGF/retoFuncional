@@ -17,4 +17,9 @@ public class Aula {
 	public void setUsuarioList(List<Usuario> usuarioList) {
 		this.usuarioList = usuarioList;
 	}
+
+	@Override
+	public String toString() {
+		return "Aula [usuarioList=" + usuarioList + "]";
+	}
 }
